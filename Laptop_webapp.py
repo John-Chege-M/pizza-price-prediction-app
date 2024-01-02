@@ -2,8 +2,6 @@ import streamlit as st
 import joblib
 import pandas 
 import numpy
-from sklearn.ensemble import GradientBoostingRegressor
-
 
 model = joblib.load('laptop_price_model.pkl')
 st.header("Laptop Price Prediction App")
